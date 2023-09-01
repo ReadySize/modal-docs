@@ -2,7 +2,7 @@
 
 ## Introducción
 
-La aplicación Readysize se puede integrar fácilmente en cualquier sitio web mediante la inclusión del siguiente tag HTML en el código fuente:
+La aplicación ReadySize se puede integrar fácilmente en cualquier sitio web mediante la inclusión del siguiente tag HTML en el código fuente:
 
 ```html
 <script src="https://modal.readysize.ai/readysize/jsReadySize.js"></script>
