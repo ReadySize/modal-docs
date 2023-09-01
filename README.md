@@ -1,4 +1,4 @@
-# Documentación Técnica de Integración de la Aplicación Readysize
+# Documentación Técnica de Integración de la Aplicación ReadySize
 
 ## Introducción
 
@@ -64,7 +64,7 @@ La función `isProductAvailable` se utiliza para verificar la disponibilidad de 
 A continuación, se muestra un ejemplo de cómo utilizar las funcionalidades de la aplicación Readysize en tu sitio web:
 
 ```javascript
-// Abrir el modal de Readysize para un producto con detalles adicionales
+// Abrir el modal de ReadySize para un producto con detalles adicionales
 const params = {
   staticImg: "https://ejemplo.com/imagen-producto.jpg",
   sizes: ["S", "M", "L"],
@@ -90,7 +90,7 @@ if (disponible) {
 
 ## Conclusiones
 
-La integración de la aplicación Readysize en tu sitio web te permite aprovechar las funcionalidades de la librería para mejorar la experiencia del usuario al seleccionar tallas de productos. Las funciones proporcionadas son simples de usar y pueden personalizarse según las necesidades de tu sitio web.
+La integración de la aplicación ReadySize en tu sitio web te permite aprovechar las funcionalidades de la librería para mejorar la experiencia del usuario al seleccionar tallas de productos. Las funciones proporcionadas son simples de usar y pueden personalizarse según las necesidades de tu sitio web.
 
-¡Esperamos que esta documentación te ayude a integrar la aplicación Readysize con éxito en tu sitio web! Si tienes alguna pregunta adicional o necesitas asistencia, no dudes en contactarnos.
+¡Esperamos que esta documentación te ayude a integrar la aplicación ReadySize con éxito en tu sitio web! Si tienes alguna pregunta adicional o necesitas asistencia, no dudes en contactarnos.
   
