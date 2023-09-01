@@ -1,2 +1,2 @@
-# modal-docs
-Integración sitios ecommerce.
+# <span style="text-align:center;">ReadySize</span>
+### Integración sitios ecommerce.
