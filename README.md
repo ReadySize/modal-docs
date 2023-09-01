@@ -71,16 +71,16 @@ const params = {
   fitType: 1
 };
 
-openModal("producto123", function(respuesta) {
+ReadySizeAPI.openModal("producto123", function(respuesta) {
   console.log("Transacción de Tamaño ID: " + respuesta.data.tranSizeId);
   console.log("Tamaño Seleccionado: " + respuesta.data.selectedSize);
 }, params);
 
-// Agregar un producto al carrito de compras
-addCart(123);
+// Comunicar que el producto se agregó al carrito de compras.
+ReadySizeAPI.addCart(123);
 
-// Verificar la disponibilidad de un producto
-const disponible = isProductAvailable("producto456");
+// Verificar la exitencia de un producto en la plataforma.
+const disponible = ReadySizeAPI.isProductAvailable("producto456");
 if (disponible) {
   console.log("El producto está disponible en Readysize");
 } else {
