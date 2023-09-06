@@ -8,13 +8,13 @@ La aplicación ReadySize se puede integrar fácilmente en cualquier sitio web me
 <script src="https://modal.readysize.ai/readysize/jsReadySize.js"></script>
 ```
 
-Esta integración permite agregar funcionalidades adicionales al sitio web para interactuar con la librería de Readysize.
+Esta integración permite agregar funcionalidades adicionales al sitio web para interactuar con la librería de ReadySize.
 
 ## Funcionalidades
 
 ### `openModal(codigoProducto, callbackRespuesta, params)`
 
-La función `openModal` se utiliza para abrir un modal de Readysize en el sitio web. A continuación, se describen los parámetros y el formato de respuesta:
+La función `openModal` se utiliza para abrir un modal de ReadySize en el sitio web. A continuación, se describen los parámetros y el formato de respuesta:
 
 - `codigoProducto` (string): El código del producto que se desea consultar.
 
@@ -41,27 +41,27 @@ La función `openModal` se utiliza para abrir un modal de Readysize en el sitio 
 
   - `fitType` (number) (opcional): El tipo de ajuste del producto. Los valores esperados son:
 
-    - `1`: Regular
-    - `2`: Ajustado
-    - `3`: Holgado
+    - `1`: Regular | Normal
+    - `2`: Ajustado | Estrecho
+    - `3`: Holgado | Suelto | Ancho
 
-  Estos campos son opcionales y se utilizan para proporcionar información adicional sobre el producto al abrir el modal de Readysize.
+  Estos campos son opcionales y se utilizan para proporcionar información adicional sobre el producto al abrir el modal de ReadySize.
 
 ### `addCart(tranSizeId)`
 
-La función `addCart` se utiliza para agregar un producto al carrito de compras de Readysize. A continuación, se describe el parámetro:
+La función `addCart` se utiliza para agregar un producto al carrito de compras de ReadySize. A continuación, se describe el parámetro:
 
 - `tranSizeId` (number): El identificador de la transacción de tamaño del producto que se desea agregar al carrito.
 
 ### `isProductAvailable(codigoProducto)`
 
-La función `isProductAvailable` se utiliza para verificar la disponibilidad de un producto en la librería de Readysize. Esta función devuelve un valor booleano que indica si el producto está disponible.
+La función `isProductAvailable` se utiliza para verificar la disponibilidad de un producto en la librería de ReadySize. Esta función devuelve un valor booleano que indica si el producto está disponible.
 
 - `codigoProducto` (string): El código del producto que se desea verificar.
 
 ## Ejemplo de Uso
 
-A continuación, se muestra un ejemplo de cómo utilizar las funcionalidades de la aplicación Readysize en tu sitio web:
+A continuación, se muestra un ejemplo de cómo utilizar las funcionalidades de la aplicación ReadySize en tu sitio web:
 
 ```javascript
 // Abrir el modal de ReadySize para un producto con detalles adicionales
@@ -82,9 +82,9 @@ ReadySizeAPI.addCart(123);
 // Verificar la exitencia de un producto en la plataforma.
 const disponible = ReadySizeAPI.isProductAvailable("producto456");
 if (disponible) {
-  console.log("El producto está disponible en Readysize");
+  console.log("El producto está disponible en ReadySize");
 } else {
-  console.log("El producto no está disponible en Readysize");
+  console.log("El producto no está disponible en ReadySize");
 }
 ```
 
