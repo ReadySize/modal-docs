@@ -49,7 +49,7 @@ La función `openModal` se utiliza para abrir un modal de ReadySize en el sitio 
 
 ### `addCart(tranSizeId)`
 
-La función `addCart` se utiliza para agregar un producto al carrito de compras de ReadySize. A continuación, se describe el parámetro:
+La función `addCart` se utiliza para comunicar que un producto, que utilizó ReadySize, fue agregado al carrito de compras. A continuación, se describe el parámetro:
 
 - `tranSizeId` (number): El identificador de la transacción de tamaño del producto que se desea agregar al carrito.
 
