@@ -72,8 +72,8 @@ const params = {
 };
 
 ReadySizeAPI.openModal("producto123", function(respuesta) {
-  console.log("Transacción de Tamaño ID: " + respuesta.data.tranSizeId);
-  console.log("Tamaño Seleccionado: " + respuesta.data.selectedSize);
+  console.log("Transacción de Tamaño ID: " + respuesta.tranSizeId);
+  console.log("Tamaño Seleccionado: " + respuesta.selectedSize);
 }, params);
 
 // Comunicar que el producto se agregó al carrito de compras.
